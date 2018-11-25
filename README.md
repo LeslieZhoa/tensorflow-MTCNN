@@ -48,7 +48,7 @@ python test.py<br>
 ### 一些建议
 生成hard_example时间非常长需要三到四小时，所以如果你想从头训练请耐心等待，如果代码或理解有什么问题，欢迎批评指正。<br>
 ### 结果展示
-图片来源百度图片<br>
+测试图片来源百度图片，测试结果如下：<br>
 ![](https://github.com/LeslieZhoa/tensorflow-MTCNN/blob/master/output/2007_000346.jpg)<br>
 ![](https://github.com/LeslieZhoa/tensorflow-MTCNN/blob/master/output/test.jpg)<br>
 ![](https://github.com/LeslieZhoa/tensorflow-MTCNN/blob/master/output/w475_h331_9a5169d0369e4e1496d1cdfabb1ded85.jpg)<br>
