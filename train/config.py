@@ -26,7 +26,7 @@ thresh=[0.6,0.7,0.7]
 #最后测试选择的网络
 test_mode='ONet'
 #选用图片还是摄像头,1是图像，2是摄像头
-input_mode='2'
+input_mode='1'
 #测试图片放置位置
 test_dir='picture/'
 #测试输出位置
