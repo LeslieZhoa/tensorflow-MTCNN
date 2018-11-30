@@ -37,11 +37,21 @@ test.py是测试代码<br>
 
 ### 运行
 训练：<br><br>
-将目录cd到preprocess上，python gen_12net_data.py生成三种pnet数据，python gen_landmark_aug.py 12 生成pnet的landmark数据，python gen_imglist_pnet.py整理到一起，python gen_tfrecords.py 12生成tfrecords文件<br><br>
+将目录cd到preprocess上，<br>
+python gen_12net_data.py生成三种pnet数据，<br>
+python gen_landmark_aug.py 12 生成pnet的landmark数据，<br>
+python gen_imglist_pnet.py整理到一起，<br>
+python gen_tfrecords.py 12生成tfrecords文件<br>
 将目录cd到train上python train.py 12 训练pnet<br><br>
-将目录cd到preprocess上，python gen_hard_example.py 12 生成三种rnet数据，python gen_landmark_aug.py 24 生成rnet的landmark数据, python gen_tfrecords.py 24生成tfrecords文件<br><br>
+将目录cd到preprocess上，<br>
+python gen_hard_example.py 12 生成三种rnet数据，<br>
+python gen_landmark_aug.py 24 生成rnet的landmark数据,<br>
+python gen_tfrecords.py 24生成tfrecords文件<br>
 将目录cd到train上python train.py 24 训练rnet<br><br>
-将目录cd到preprocess上，python gen_hard_example.py 24 生成三种onet数据，python gen_landmark_aug.py 48 生成onet的landmark数据, python gen_tfrecords.py 48生成tfrecords文件<br><br>
+将目录cd到preprocess上，<br>
+python gen_hard_example.py 24 生成三种onet数据，<br>
+python gen_landmark_aug.py 48 生成onet的landmark数据,<br>
+python gen_tfrecords.py 48生成tfrecords文件<br>
 将目录cd到train上python train.py 48 训练onet<br><br>
 测试:<br><br>
 python test.py<br>
