@@ -33,7 +33,7 @@ preprocess里是预处理数据程序，BBox_utils.py和utils.py，loader.py是�
 train中的config是一些参数设定，大都文件夹我都直接写死了，所以里面参数能改的很少，model.py是模型,train.py是训练，train_model.py针对不同网络训练<br><br>
 test.py是测试代码<br>
 ### 下载数据
-将[WIDERFace](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/)的训练数据下载解压，将里面的WIDER_train文件夹放置到data下，将[港中文的带关键点图像的训练集](http://mmlab.ie.cuhk.edu.hk/archive/CNN_FacePoint.htm)解压，将里面的lfw_5590和net_7876文件夹放置到data下。<br>
+将[WIDERFace](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/)的训练数据下载解压，将里面的WIDER_train文件夹放置到data下，将[Deep Convolutional Network Cascade for Facial Point Detection的训练集](http://mmlab.ie.cuhk.edu.hk/archive/CNN_FacePoint.htm)解压，将里面的lfw_5590和net_7876文件夹放置到data下。model文件夹下已存储好我训练的权值文件了。<br>
 
 ### 运行
 训练：<br><br>
